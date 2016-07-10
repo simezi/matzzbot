@@ -16,16 +16,13 @@ public class Main {
 
     @RequestMapping("/")
     @ResponseBody
-    String home(){
-        return "Hello,World?";
+    String helloWorld() {
+        return "Hello,World? kazuho";
     }
 
     public static void main(String[] args) {
         SpringApplication.run(Main.class);
     }
 
-    public void hello(){
-        System.out.println("hello");
-    }
 }
 
