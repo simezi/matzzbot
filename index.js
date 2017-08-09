@@ -19,5 +19,5 @@ controller.spawn({
 
 // say hi
 controller.hears('hi',['direct_message','direct_mention','mention'],function(bot,message) {
-    bot.reply(message,'hi');
+    bot.reply(message,'hiho');
 });
