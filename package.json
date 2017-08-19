@@ -15,9 +15,7 @@
   },
   "homepage": "https://github.com/simezi/matzzbot#readme",
   "dependencies": {
-    "botkit": "^0.5.6"
-  },
-  "devDependencies": {
+    "botkit": "^0.5.6",
     "axios": "^0.16.2"
   }
 }
