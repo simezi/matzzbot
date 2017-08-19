@@ -18,6 +18,11 @@ controller.spawn({
     }
 });
 
+
+controller.hears('hi', ['direct_message', 'direct_mention', 'mention'], function (bot, message) {
+    bot.reply(message, 'わかる')
+})
+
 // say hi
 controller.hears(['曲', 'song'], ['direct_message', 'direct_mention', 'mention'], function (bot, message) {
     console.log(message);
